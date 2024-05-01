@@ -1,0 +1,65 @@
+.footer {
+    background-color: #222; /* Dark background */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the footer */
+  }
+
+  .footer-content {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stacked vertically for smaller screens */
+    align-items: center; /* Center the content horizontally */
+    justify-content: space-around; /* Distribute sections evenly */
+  }
+
+  .footer-section {
+    padding: 10px; /* Padding within each section */
+    margin: 10px; /* Margin between sections */
+    text-align: center; /* Center text by default */
+  }
+
+  .footer-section h3 {
+    border-bottom: 1px solid white; /* Line under section headings */
+    padding-bottom: 5px; /* Padding below the heading */
+  }
+
+  .footer-section p {
+    font-size: 0.9rem; /* Slightly smaller font for text */
+  }
+
+  .footer-section ul {
+    list-style-type: none; /* Remove bullet points from lists */
+    padding: 0; /* No padding for lists */
+  }
+
+  .footer-section ul li {
+    padding: 5px 0; /* Padding between list items */
+  }
+
+  .footer-section ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* No underline for links */
+    transition: color 0.3s; /* Smooth hover transition */
+  }
+
+  .footer-section ul li a:hover {
+    color: #ffdd57; /* Change color on hover (e.g., yellowish) */
+  }
+
+  .footer-bottom {
+    text-align: center; /* Center the text at the footer's bottom */
+    padding-top: 10px; /* Padding above the footer bottom */
+    border-top: 1px solid #333; /* Line separating the footer content from the footer bottom */
+  }
+
+  /* Responsive layout for larger screens */
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row; /* Horizontal layout for larger screens */
+    }
+
+    .footer-section {
+      flex: 1; /* Equal distribution of space */
+      min-height: 150px; /* Minimum height to ensure equal length */
+      text-align: left; /* Align text to the left for larger screens */
+    }
+  }
