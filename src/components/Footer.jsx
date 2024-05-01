@@ -10,7 +10,7 @@ const Footer = () => {
           <p>
             Customer Service: 1-800-123-4567<br />
             Email: support@example.com<br />
-            Address: 123 E-commerce St., Suite 100, Hyderabad, Country
+            Address: 123 E-commerce St., Suite 100, Hyderabad, India
           </p>
         </div>
 
