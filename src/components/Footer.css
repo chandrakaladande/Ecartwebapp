@@ -18,13 +18,22 @@
   }
 
   .footer-section h3 {
-    border-bottom: 1px solid white; /* Line under section headings */
-    padding-bottom: 5px; /* Padding below the heading */
+    font-size: 1.3rem; /* Slightly larger font size for section headings */
+    font-weight: bold; /* Bold font for emphasis */
+    border-bottom: 2px solid #fff; /* Thicker border for better visual separation */
+    padding-bottom: 8px; /* More padding for better spacing */
+    margin-bottom: 10px; /* Add margin below the border for consistent spacing */
+    text-transform: uppercase; /* Ensure headings are in uppercase for emphasis */
   }
 
   .footer-section p {
-    font-size: 0.9rem; /* Slightly smaller font for text */
+    font-size: 1rem; /* Increase font size for better readability */
+    line-height: 1.6; /* Increase line spacing for easier reading */
+    margin: 0; /* Remove default margin for consistent spacing */
+    padding-bottom: 10px; /* Add padding to create space between paragraphs */
+    color: #ccc; /* Use a lighter shade for the paragraph text */
   }
+
 
   .footer-section ul {
     list-style-type: none; /* Remove bullet points from lists */
