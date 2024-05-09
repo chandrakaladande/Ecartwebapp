@@ -54,6 +54,8 @@ const Navbar = ({ setData, cart }) => {
             <div onClick={() => filterByCategory('mobiles')} className="items">Mobiles</div>
             <div onClick={() => filterByCategory('laptops')} className="items">Laptops</div>
             <div onClick={() => filterByCategory('tablets')} className="items">Tablets</div>
+            <div onClick={() => filterByCategory('watches')} className="items">Watches</div>
+
 
             {/* Price dropdown */}
             <div className="items" onClick={toggleDropdown}>
